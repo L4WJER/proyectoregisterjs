@@ -1,0 +1,233 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+
+body {
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+   background-color: #222;
+}
+
+.container-form {
+    width: 90%;
+    height: 90vh;
+    display: flex;
+    justify-content: space-around;
+    transition:  all .5s ease-out;
+}
+
+.welcome-back {
+    display: flex;
+    align-items: center;
+    text-align: center;
+    background-color:white;
+}
+
+.message {
+    padding: 1rem;
+}
+
+.message h2 {
+    font-size: 1.7rem;
+    padding: 1rem 0;
+}
+
+.message button {
+    padding: 1rem;
+    font-weight: 400;
+    background-color: #4a4aee;
+    border-radius: 2rem;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    font-size: .9rem;
+    margin-top: 2rem;
+    transition: all .3s ease-in;
+    color: #fff;
+}
+
+.message button:hover {
+    background-color: #6464f8;
+}
+
+.formulario {
+    width: 400px;
+    padding: 1rem;
+    margin: 2rem;
+    background-color: white;
+    text-align: center;
+}
+
+.create-account {
+    padding: 2.7rem 0;
+    font-size: 1.7rem;
+}
+
+.iconos {
+    width: 200px;
+    display: flex;
+    justify-content: space-around;
+    margin: auto;
+}
+
+.border-icon {
+    height: 20px;
+    width: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 1.5rem;
+    border: solid thin white;
+    border-radius: 50%;
+    font-size: 1.5rem;
+    transition: all .3s ease-in;
+}
+
+.border-icon:hover {
+    background-color: #4a4aee;
+    cursor: pointer;
+}
+
+.cuenta-gratis {
+    padding: 2rem 0;
+}
+
+.formulario input {
+    width: 70%;
+    display: block;
+    margin: auto;
+    margin-bottom: 2rem;
+    background-color: transparent;
+    border: none;
+    border-bottom: white thin solid;
+    text-align: center;
+    outline: none;
+    padding: .2rem 0;
+    font-size: .9rem;
+    color: black;
+}
+
+.formulario input[type="button"] {
+    width: 60%;
+    margin: auto;
+    border: solid thin white;
+    padding: .7rem;
+    border-radius: 2rem;
+    background-color: white;
+    font-weight: 600;
+    margin-top: 3rem;
+    font-size: .8rem;
+    cursor: pointer;
+    color: #222;
+}
+
+.sign-in {
+    position: absolute;
+    opacity: 0;
+    visibility: hidden;
+}
+
+.sign-in.active {
+    opacity: 1;
+    visibility: visible;
+}
+
+.sign-up.active {
+    opacity: 0;
+    visibility: hidden;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800&display=swap');
+body{
+    font-family: 'Montserrat', sans-serif;
+    /* background-color: darkblue;*/
+} 
+
+.main-section {
+    text-align: center;
+    margin: 9% auto 0;
+    width: 60%;
+    padding: 29px;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+.main-section h2 {
+    text-transform: uppercase;
+    color: #736c6c;
+}
+.container{
+    display: flex;
+    justify-content: space-between;
+    gap: 30px;
+}
+.form-side {
+    width: 50%;
+    margin-top: 2%;
+}
+.form-side form#form-search {
+    display: flex;
+    flex-direction: column;
+}
+.image-side {
+
+    height: 400px;
+    width: 50%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-image: url(./img/cripotoImage.png);
+}
+.form-side #form-search select {
+    font-size: inherit;
+    margin: 8px 0px 7px;
+    background-color: aliceblue;
+    padding: 8px 5px;
+    font-family: 'Montserrat', sans-serif;
+    border-radius: 7px;
+    border: solid 1px #ada2a2;
+    color: #736d6d;
+}
+input[type="submit"] {
+    margin: 9px auto 0px;
+    width: 50%;
+    color: cadetblue;
+    background-color: #00a478;
+    border: solid 0px #ada2a2;
+    border-radius: 4px;
+    text-transform: uppercase;
+    font-weight: 700;
+    padding: 7px 3px;
+    color: #FFF;
+    height: 37px;
+    font-family: 'Montserrat', sans-serif;
+}
+input[type="submit"]:hover {
+    color: #00a478;
+    background-color: #fff;
+    border: solid 2px #00a478;
+}
+.error {
+    color: red;
+}
+.display-info p span{
+    font-weight: 700;
+}
+.display-info .main-price{
+    font-size: 28px;
+    margin-bottom: 2px;
+}
+.container-answer{
+    background-color: white;
+    color: black;
+}
+.text-light{
+    
+    font-size: xx-large;
+}
